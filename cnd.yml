@@ -1,0 +1,6 @@
+swap:
+  deployment:
+    name: welcome
+mount:
+  source: .
+  target: /src

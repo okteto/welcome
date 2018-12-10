@@ -1,3 +1,3 @@
 # welcome
 
-A simple Python app (using Flask) that can be easily deployed on [okteto](okteto.com).
+A simple Python app (using Flask) to demo the power of [cloud native development](https://okteto.com).

@@ -15,7 +15,7 @@ spec:
         app: welcome
     spec:
       containers:
-      - image: okteto/welcome
+      - image: okteto/welcome:0.1.0
         name: welcome
         ports:
         - containerPort: 80

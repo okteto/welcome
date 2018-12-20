@@ -1,6 +1,7 @@
 swap:
   deployment:
     name: welcome
+    container: welcome
 mount:
   source: .
   target: /src

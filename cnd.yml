@@ -1,7 +1,13 @@
 swap:
   deployment:
     name: welcome
-    container: welcome
+    image: python:3
+    command:
+    - sh
+    - -c
+    - pip install -r requirements.txt && python app.py
 mount:
   source: .
-  target: /src
+  target: /usr/src/app
+scripts:
+  hello: echo Your cluster ♥s you

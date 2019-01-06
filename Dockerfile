@@ -1,15 +1,15 @@
 # Using official python runtime base image
-FROM python:2.7-alpine
+FROM python:3
 
 # Set the application directory
-WORKDIR /src
+WORKDIR  /usr/src/app
 
 # Install our requirements.txt
 ADD requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
 # Copy our code from the current folder to /app inside the container
-ADD . /src
+ADD .  /usr/src/app
 
 # Make port 80 available for links and/or publish
 EXPOSE 80

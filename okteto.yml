@@ -1,6 +1,0 @@
-name: welcome
-containers:
-  app:
-    image: okteto/welcome
-    ports:
-      - 80

@@ -13,7 +13,7 @@ cd welcome
 
 Deploy the welcome service by running the following command.
 ```console
-$ kubectl create -f k8-specifications 
+$ kubectl create -f manifests 
 deployment.apps/welcome created
 service/welcome created
 

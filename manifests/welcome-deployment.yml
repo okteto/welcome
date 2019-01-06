@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - image: okteto/welcome:0.1.0
-        name: welcome
+        name: web
         ports:
         - containerPort: 80
